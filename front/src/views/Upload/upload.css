@@ -1,0 +1,18 @@
+.upload-container {
+  padding: 20px;
+}
+
+.upload-action-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.upload-action-button {
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.upload-action-button:hover {
+  color: #1890ff;
+}

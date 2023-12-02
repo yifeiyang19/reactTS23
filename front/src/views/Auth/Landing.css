@@ -1,0 +1,60 @@
+.auth-container {
+  text-align: center;
+  background-color: #fafafa;
+  height: 100vh;
+}
+
+.auth-container .title {
+  padding: 30px;
+  text-align: center;
+  font-size: 30px;
+  background-color: white;
+}
+
+.auth-container .container {
+  display: inline-flex;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.role-radio-item .ant-form-item-control-input-content {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.login-form {
+  width: 300px;
+}
+
+.register-form {
+  width: 400px;
+}
+
+.login-title,
+.register-title {
+  font-size: 22px;
+}
+
+.login-form .login-item {
+  text-align: left;
+}
+
+.register-form-wrapper {
+  margin-left: 230px;
+}
+
+.register-item {
+  display: flex;
+}
+
+.reset-btn {
+  margin-left: 20px;
+}
+
+.date-picker {
+  width: 100%;
+}
+
+.register-btn {
+  margin-left: 8px;
+}

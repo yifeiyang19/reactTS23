@@ -1,0 +1,27 @@
+.header-container {
+  background-color: #fff;
+  height: 70px;
+  line-height: 70px;
+  position: relative;
+  z-index: 10;
+  width: 100%;
+  box-shadow: 0 2px 8px #f0f1f2;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.header-container .title {
+  font-size: 20px;
+  color: #333;
+}
+
+.header-container .user-right .action {
+  cursor: pointer;
+  color: #333;
+  margin-left: 16px;
+}
+
+.header-container .user-right .active{
+  color: #1890ff;
+}

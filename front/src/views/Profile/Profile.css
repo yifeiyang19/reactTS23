@@ -1,0 +1,73 @@
+.profile-container {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.profile-container .profile-avatar {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+}
+
+.update-avatar {
+  margin-top: 8px;
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.update-avatar .update-avatar-btn {
+  font-size: 15px;
+}
+
+.update-avatar .update-span {
+  display: inline-block;
+  margin-left: 4px;
+  color: #1890ff;
+  cursor: pointer;
+}
+
+.update-avatar .edit-icon {
+  color: #1890ff;
+}
+
+.profile-container .basic-info {
+  margin-top: 12px;
+  background-color: #fff;
+  padding: 12px;
+  border: 1px solid #ebebec;
+}
+
+.basic-info .item:not(:first-child) {
+  margin-top: 12px;
+}
+
+.basic-info .update-input {
+  margin-top: 8px;
+}
+
+.basic-info .item .name {
+  color: #666;
+  font-size: 16px;
+}
+
+.basic-info .item-info {
+  margin-top: 4px;
+  font-size: 15px;
+  position: relative;
+  padding-bottom: 4px;
+}
+
+/* .item-info::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  content: '';
+  width: 100%;
+  border: 1px solid #ebebec;
+} */
+
+.item .update-btn {
+  width: 100%;
+}

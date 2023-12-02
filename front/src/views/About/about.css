@@ -1,0 +1,58 @@
+.about-container {
+  padding: 50px 30px;
+}
+
+.about-container .title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.desc-container .desc {
+  max-width: 1100px;
+}
+
+.about-container .desc-container {
+  display: flex;
+  justify-content: center;
+  text-indent: 20px;
+}
+
+.about-container .content-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.content-title{
+  margin-bottom: -8px;
+  text-align: center;
+}
+
+.content-container .person-wrap .item-title {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.content-container .person-wrap .item {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.content-container .person-wrap .item-content {
+  margin-top: 4px;
+  text-align: left;
+  text-indent: 20px;
+  max-width: 360px;
+}
+
+.content-container .person-wrap .item:not(:last-child) {
+  margin-right: 20px;
+}
+
+.content-container .person-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
